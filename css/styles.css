@@ -11,6 +11,8 @@ body {
     --secondary-text-color: #757575;
     --secondary-font: 'Raleway';
 }
+/*główna nawigacja na stronie*/
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -56,6 +58,7 @@ body {
 .contact:focus {
     color: var(--brand-color);
 }
+/*główna część strony*/
 .first-heading-box {
     background-color: #2F303A;
 }
@@ -129,6 +132,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+/*podstrona-portfolio*/
+
 .buttons {
     list-style-type: none;
 }
@@ -165,6 +170,8 @@ body {
     line-height: 1.71;
     font-style: normal;
 }
+/*stopka*/
+
 footer {
     background-color: #2F303A;
     width: 1600px;

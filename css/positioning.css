@@ -6,6 +6,8 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
+/*główna nawigacja na stronie*/
+
 header {
     border-bottom: 1px solid #ececec;
 }
@@ -29,6 +31,8 @@ header {
     justify-content: space-between;
     gap: 50px;
 }
+/*główna część strony*/
+
 .main-heading {
     max-width: 696px;
     margin: 0 auto;
@@ -56,6 +60,11 @@ header {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0;
+}
+.lorem-ipsum-description {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
 }
 .what-do-we-do {
     padding-bottom: 94px;
@@ -95,10 +104,13 @@ img {
 }
 .team-image-description span {
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 16px;
     text-align: center;
     display: block;
 }
+
+/*podstrona-portfolio*/
+
 .buttons {
     display: flex;
     flex-direction: row;
@@ -135,6 +147,8 @@ img {
     
     display: block;
 }
+/*stopka*/
+
 footer {
     display: flex;
     margin: 0 auto;
