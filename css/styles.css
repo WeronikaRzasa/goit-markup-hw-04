@@ -69,6 +69,7 @@ header {
     justify-content: space-between;
     gap: 46px;
     padding: 0px;
+    margin-right: 345px;
 }
 .navigations a{
     color: var(--main-text-color);
@@ -96,6 +97,10 @@ header {
     font-weight: 500;
     line-height: 1.14;
     text-decoration: none;
+    width: 161px;
+    height: 16px;
+    display: flex;
+    align-items: center;
 }
 .contact:hover,
 .contact:focus {
